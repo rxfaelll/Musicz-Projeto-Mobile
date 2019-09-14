@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+
+    --lcColor: #756C83;
+    --hcColor: #F38181;
+    --bgColor: #FBFBFB;
+}
+
+/* Style Header */
+header{
+    width: 100%;
+    height: 70px;
+}
+
+.logo{
+    font-weight: bold;
+    color: var(--lcColor);
+    font-size: 32px;
+
+    opacity: 0;
+}
+
+.logo span{
+    font-weight: normal;
+    color: var(--hcColor);
+}
+
+.menu-btn{
+    width: 35px;
+    height: 5px;
+
+    background: var(--hcColor);
+}
+
+.menu-top{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 1;
+
+    transition: top 0.2s ease-in-out 0.2s,
+    transform 0.2s ease-in-out;
+}
+
+.menu-mid{
+    position: absolute;
+    top: 25px;
+    left: 15px;
+    z-index: 1;
+
+    transition: opacity 0.2s ease 0.2s;
+}
+
+.menu-bot{
+    position: absolute;
+    top: 35px;
+    left: 15px;
+    z-index: 1;
+
+    transition: top 0.2s ease-in-out 0.2s,
+    transform 0.2s ease-in-out;
+}
+
+.menu-checkbox{
+    width: 60px;
+    height: 60px;
+
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+
+    opacity: 0;
+}
+
+.menu-checkbox:checked ~ .menu-top{
+    transition: top 0.2s ease-in-out,
+    transform 0.2s ease-in-out 0.2s;
+    top: 25px;
+    transform: rotate(45deg);
+}
+
+.menu-checkbox:checked ~ .menu-mid{
+    transition: opacity 0.2s ease 0.2s;
+    opacity: 0;
+}
+
+.menu-checkbox:checked ~ .menu-bot{
+    transition: top 0.2s ease-in-out,
+    transform 0.2s ease-in-out 0.2s;
+    top: 25px;
+    transform: rotate(-45deg);
+}
+
+.toggle-menu{
+    width: 80%;
+    height: 100vh;
+
+    background: var(--bgColor);
+
+    padding-top: 85px;
+    padding-left: 15px;
+
+    position: fixed;
+    top: 0;
+    left: -80%;
+
+    display: flex;
+    flex-direction: column;
+
+    transition: left 0.4s ease-in-out;
+}
+
+.toggle-menu a{
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--hcColor);
+    text-decoration: none;
+
+    margin-bottom: 12px;
+}
+
+.menu-checkbox:checked ~ .toggle-menu{
+    left: 0;
+}
+
+.toggle-menu-blur{
+    width: 100vw;
+    height: 100vh;
+
+    background: rgba(0, 0, 0, 0.50);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    display: none;
+}
+
+.menu-checkbox:checked ~ .toggle-menu-blur{
+    display: block;
+}

@@ -7,7 +7,9 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
+}
 
+:root{
     --lcColor: #756C83;
     --hcColor: #F38181;
     --bgColor: #FBFBFB;

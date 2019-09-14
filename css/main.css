@@ -15,6 +15,10 @@ body{
     --bgColor: #FBFBFB;
 }
 
+a{
+    text-decoration: none;
+}
+
 /* Style Header */
 header{
     width: 100%;

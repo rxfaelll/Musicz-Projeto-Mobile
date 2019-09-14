@@ -1,0 +1,45 @@
+.container-posts{
+    width: 90%;
+
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 auto;
+    padding-bottom: 36px;
+}
+
+.container-posts h3{
+    color: var(--lcColor);
+    margin: 16px 0 0 0;
+}
+
+.post{
+    width: 100%;
+    height: 80px;
+
+    background: var(--bgColor);
+    border-radius: 7px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.16);
+
+    margin: 16px 0 0 0;
+
+    display: flex;
+    align-items: center;
+
+    overflow: hidden;
+}
+
+.post img{
+    width: auto;
+    height: 100%;
+
+    display: inline-block;
+}
+
+.post h1{
+    color: var(--lcColor);
+    font-size: 16px;
+
+    margin-right: 2em;
+    margin-left: 1em;
+}

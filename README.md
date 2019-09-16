@@ -16,7 +16,7 @@ Basicamente, ele terá uma área de blog com notícias sobre músicas e artistas
 
 * [ ] Criar página de lançamentos
 
-* [ ] Compilar, pelo menos um vez, o Musicz e abrir no celular 
+* [x] Compilar, pelo menos um vez, o Musicz e abrir no celular 
 
 ## Master Challenge
 

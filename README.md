@@ -4,19 +4,19 @@ Basicamente, ele terá uma área de blog com notícias sobre músicas e artistas
 
 ## To Do List
 
--[x] Criar possibilidade de tocar músicas
+- [x] Criar possibilidade de tocar músicas
 
--[x] Pausar uma música para que outra comece a tocar
+- [x] Pausar uma música para que outra comece a tocar
 
--[] Adicionar highlight na música que está tocando no momento
+- [] Adicionar highlight na música que está tocando no momento
 
--[] Criar botão de play/pause funcional
+- [] Criar botão de play/pause funcional
 
--[] Criar botões de avançar/retroceder funcionais
+- [] Criar botões de avançar/retroceder funcionais
 
--[] Criar página de lançamentos
+- [] Criar página de lançamentos
 
--[] Compilar, pelo menos um vez, o Musicz e abrir no celular 
+- [] Compilar, pelo menos um vez, o Musicz e abrir no celular 
 
 ## Master Challenge
 

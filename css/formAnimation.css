@@ -1,0 +1,48 @@
+.form-refuse{
+    animation: refuse 0.2s linear 2;
+}
+
+@keyframes refuse{
+    0%{
+        transform: translateX(0%);
+    }
+
+    35%{
+        transform: translateX(10%);
+    }
+
+    70%{
+        transform: translateX(-10%);
+    }
+
+    100%{
+        transform: translateX(0%);
+    }
+}
+
+.form-accept{
+    animation: accept 0.5s ease-in-out forwards;
+}
+
+@keyframes accept {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100vw);
+    }
+}
+
+.active-msg{
+    animation: fade 0.5s ease-in-out 0.7s forwards;
+}
+
+@keyframes fade{
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}

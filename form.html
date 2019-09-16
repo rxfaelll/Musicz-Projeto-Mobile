@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">    
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/FormAnimation.css">
+    <title>Musicz - Mande sua mensagem</title>
+</head>
+<body>
+    <header>
+        <input type="checkbox" class="menu-checkbox" id="menuCheckbox">
+        <div class="menu-top menu-btn"></div>
+        <div class="menu-mid menu-btn"></div>
+        <div class="menu-bot menu-btn"></div>
+
+        <div class="logo">Music<span>z</span></div>
+
+        <div class="toggle-menu-blur" id="toggleMenuBlur"></div>
+        <nav class="toggle-menu">
+            <a href="index.html">Home</a>
+            <a href="lancamentos.html">Lançamentos</a>
+            <a href="playlist.html">Playlist da Semana</a>
+            <a href="form.html">Sugestões</a>
+        </nav>
+    </header>
+
+    <form>
+        <div class="input-block">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" class="form-input" autocomplete="off">
+        </div>
+
+        <div class="input-block">
+            <label for="email">Email:</label>
+            <input type="email" id="email" class="form-input" autocomplete="off">
+        </div>
+
+        <div class="input-block">
+            <label for="message">Sua mensagem:</label>
+            <textarea name="message" id="message" cols="30" rows="6"></textarea>
+        </div>
+
+        <button type="submit" class="submit-btn">Enviar</button>
+    </form>
+
+    <div id="welcomeMsg" class="welcome-msg"></div>
+
+    
+    <script src="jquery/jquery.js"></script>    
+    <script src="js/header.js"></script>
+    <script src="js/formValidation.js"></script>
+</body>
+</html>

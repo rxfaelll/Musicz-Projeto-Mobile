@@ -1,0 +1,64 @@
+form{
+    width: 100%;
+
+    padding: 0 15px 0 15px;
+}
+
+.input-block{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-block label{
+    font-weight: bold;
+    color: var(--hcColor);
+
+    margin-bottom: 0.2em;
+}
+
+.input-block input, .input-block textarea{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    border-radius: 7px;
+    border: 2px solid var(--lcColor);
+    outline: none;
+
+    padding: 0.5em;
+    margin-bottom: 1em;
+
+    resize: none;
+}
+
+.input-block input:focus, .input-block textarea:focus{
+    box-shadow: 0 0 6px var(--hcColor);
+    border-color: var(--hcColor);
+}
+
+.submit-btn{
+    width: 100%;
+    padding: 0.5em 0 0.5em 0;
+
+    font-size: 1em;
+    font-weight: bold;
+    color: var(--bgColor);
+
+    background: var(--hcColor);
+    border-radius: 7px;
+    border: none;
+}
+
+/* Message */
+
+.welcome-msg{
+    width: 100%;
+
+    padding: 0 15px 0 15px;
+
+    color: var(--hcColor);
+    font-size: 28px;
+    text-align: center;
+
+    opacity: 0;
+
+    margin: 50px 0 0 0;
+}

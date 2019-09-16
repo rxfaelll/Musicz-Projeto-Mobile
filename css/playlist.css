@@ -1,6 +1,8 @@
 main{
     width: 90%;
     margin: 0 auto;
+
+    padding-bottom: 70px;
 }
 
 main > h3{
@@ -10,4 +12,27 @@ main > h3{
 .music-btn{
     color: var(--lcColor);
     margin-bottom: 28px;
+}
+
+.player{
+    width: 100%;
+    height: 70px;
+
+    background: var(--bgColor);
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.player-progress-bar{
+    width: 0px;
+    height: 5px;
+
+    background: var(--hcColor);
+
+    position: absolute;
+    top: 0;
+    left: 0;
 }

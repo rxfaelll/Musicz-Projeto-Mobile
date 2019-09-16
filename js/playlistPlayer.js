@@ -10,7 +10,14 @@ for(let i=0; i<musicBtn.length; i++){
 function playSong(song){
     stopAllSongs(); //Para qualque música que estaja tocando
 
-    song.children[2].play(); //Começa a tocar a música selecionada
+    let playSong = song.children[2];
+    playSong.play(); //Começa a tocar a música selecionada
+    
+    playSong.addEventListener("timeupdate", function() {
+        var currentTime = playSong.currentTime;
+        var duration = playSong.duration;
+        $('.player-progress-bar').stop(true,true).animate({'width':(currentTime +.25)/duration*100+'%'},100,'linear');
+    });
 }
 
 function stopAllSongs(){

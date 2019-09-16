@@ -20,4 +20,3 @@ for(let i=0; i<songsObj.length; i++){
     audioUrl.setAttribute("src", songsObj[i]["url"])
     audioTag.appendChild(audioUrl);
 }
-

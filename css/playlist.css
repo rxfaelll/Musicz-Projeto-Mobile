@@ -1,0 +1,13 @@
+main{
+    width: 90%;
+    margin: 0 auto;
+}
+
+main > h3{
+    color: var(--hcColor);
+}
+
+.music-btn{
+    color: var(--lcColor);
+    margin-bottom: 28px;
+}

@@ -20,4 +20,4 @@ Basicamente, ele terá uma área de blog com notícias sobre músicas e artistas
 
 ## Master Challenge
 
--[] Poder controlar a playlist pelo player do celular
+* [ ] Poder controlar a playlist pelo player do celular

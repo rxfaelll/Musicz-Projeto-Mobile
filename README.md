@@ -1,4 +1,4 @@
-# Musicz-Projeto-Mobile
+# Musicz Projeto Mobile Com PhoneGap Cordova
 Musicz é um projeto mobile que será compilado com o cordova para criar um app.
 Basicamente, ele terá uma área de blog com notícias sobre músicas e artistas, uma área com os álbuns lançados recentemente e uma outra área com uma playlist semanal.
 

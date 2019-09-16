@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets"
+        xmlns:gap="http://phonegap.com/ns/1.0"
+        id="org.rafaelsoares.musicz"
+        version="1.0.0">
+
+    <name>
+        Musicz
+    </name>
+
+    <description>
+        Musicz Projeto Mobile Com PhoneGap Cordova
+    </description>
+
+    <author email="rafa.081299@gmail.com">
+        Rafael Soares
+    </author>
+
+    <preference name="orientation" value="portrait"/>
+    <preference name="fullscreen" value="true"/>
+    <preference name="permissions" value="none"/>
+    <platform name="android"/>
+
+    <icon src="img/phoneGap_items/icon.png"/>
+    <plugin name="cordova-plugin-splashscreen"/>
+    <splash src="img/phoneGap_items/splash.png"/>
+</widget>

@@ -8,7 +8,7 @@ Basicamente, ele terá uma área de blog com notícias sobre músicas e artistas
 
 * [x] Pausar uma música para que outra comece a tocar
 
-* [ ] Adicionar highlight na música que está tocando no momento
+* [x] Adicionar highlight na música que está tocando no momento
 
 * [ ] Criar botão de play/pause funcional
 

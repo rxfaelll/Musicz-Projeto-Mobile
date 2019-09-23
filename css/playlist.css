@@ -36,3 +36,7 @@ main > h3{
     top: 0;
     left: 0;
 }
+
+.highlight-song{
+    color: var(--hcColor);
+}
